@@ -1,3 +1,7 @@
+- thêm mô hình llama 3.2 1b và qwen 2.5 7b vào model hub
+- thay các tên và đường dẫn giống comment trong file dskd_cma_gpt2_base.sh
+- thay các tên và đường dẫn giống comment trong file uld_gpt2_base.sh
+
 # Dual-Space Knowledge Distillation for Large Language Models (EMNLP 2024)
 
 <small>Songming Zhang, Xue Zhang, Zengkui Sun, Yufeng Chen*, Jinan Xu</small>
