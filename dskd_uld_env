@@ -1,0 +1,13 @@
+name: dskd_uld_train
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - deepspeed>=0.14.0
+      - torch>=2.0.1
+      - transformers>=4.40.2
+      - peft>=0.8.2
+      - rouge_score>=0.1.2
