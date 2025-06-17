@@ -36,8 +36,9 @@ class DistillDataset(Dataset):
     
     def _load_and_process_data(self):
         dataset = []
-        path = os.path.join(self.args.data_dir, f"{self.split}.jsonl")
-
+        #path = os.path.join(self.args.data_dir, f"{self.split}.jsonl")
+        path = self.args.data_dir
+        
         if os.path.exists(path):
             with open(path) as f:
                 raw_data = [json.loads(l) for l in f.readlines()]
