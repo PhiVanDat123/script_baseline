@@ -1,6 +1,5 @@
-- thêm mô hình llama 3.2 1b và qwen 2.5 7b vào model hub
-- thay các tên và đường dẫn giống comment trong file dskd_cma_gpt2_base.sh
-- thay các tên và đường dẫn giống comment trong file uld_gpt2_base.sh
+- thêm mô hình llama 3.2 1b và qwen 2.5 7b vào model hub theo dạng llama3.2/llama3.2-1b-hf và qwen2.5/qwen2.5-7b-hf
+- thay path data thành path data của mình
 
 # Dual-Space Knowledge Distillation for Large Language Models (EMNLP 2024)
 
