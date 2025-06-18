@@ -16,11 +16,11 @@ DISTRIBUTED_ARGS="--nproc_per_node $GPUS_PER_NODE \
 
 # model
 BASE_PATH=path_to_dskd_project
-CKPT_TYPE="gpt2" #thay tên mô hình của mình vào
-CKPT_NAME="gpt2-base" #thay tên mô hình của mình vào
+CKPT_TYPE="llama3.2" 
+CKPT_NAME="llama3.2-1b-hf" 
 CKPT_PATH="${BASE_PATH}/model_hub/${CKPT_TYPE}/${CKPT_NAME}"
-TEACHER_MODEL_TYPE="qwen" #thay tên mô hình của mình vào
-TEACHER_MODEL_NAME="Qwen1.5-1.8B" #thay tên mô hình của mình vào 
+TEACHER_MODEL_TYPE="qwen2.5"
+TEACHER_MODEL_NAME="qwen2.5-7b-hf" 
 TEACHER_MODEL_PATH="path_to_teacher_sft_ckpt" #thay bằng đường dẫn đến checkpoint sft của teacher
 # data
 DATA_DIR="${BASE_PATH}/data/dolly/" #thay thành đường dẫn đến dataset của mình
